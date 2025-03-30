@@ -1,0 +1,50 @@
+/* src/components/Contact.css */
+
+.contact-container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .contact-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input, textarea {
+    width: 100%;
+    max-width: 400px; /* Limit width of input fields */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #bdc3c7; /* Light border */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #2980b9; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #2980b9; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1a6a8a; /* Darker shade on hover */
+  }

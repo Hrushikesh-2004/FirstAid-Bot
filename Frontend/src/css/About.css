@@ -1,0 +1,27 @@
+/* src/components/About.css */
+
+.about-container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .about-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+  }
+  
+  ul li {
+    background: #ecf0f1; /* Light gray background for list items */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }

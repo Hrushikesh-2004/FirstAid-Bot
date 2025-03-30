@@ -1,0 +1,30 @@
+/* src/components/Home.css */
+
+.home-container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .home-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #2980b9; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #1a6a8a; /* Darker shade on hover */
+  }
