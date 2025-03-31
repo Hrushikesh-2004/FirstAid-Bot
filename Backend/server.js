@@ -7,8 +7,9 @@ require('dotenv').config();
 
 const app = express();
 app.use(express.json());
-app.use(cors());
-
+app.use(cors({
+    origin:"*"
+}));
 // Middleware to print incoming requests
 app.use((req, res, next) => {
   console.log(`Incoming ${req.method} request to ${req.originalUrl}`);
